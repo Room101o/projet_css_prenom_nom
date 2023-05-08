@@ -12647,4 +12647,18 @@ span {
   border: 5px solid grey;
 }
 
+.meet-our h1, .meet-our .h1 {
+  font-family: "Courgette";
+}
+
+.title-meet h1, .title-meet .h1 {
+  padding-top: 4%;
+  color: white;
+}
+
+.box-img-meet {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
 /*# sourceMappingURL=app.css.map */
