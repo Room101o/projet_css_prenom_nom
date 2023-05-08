@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(../../../../public/images/banner1.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: hue;
+    background-color: rgba(0, 0, 0, 0.667);
+    background-position: center;
+    
+}
+
+nav a:hover{
+    background-color: $color-brown;
+    // padding:  30px;
+    
+}
+
+.title{
+    font-family: "Roboto";
+    margin-top: 9%;
+    color: white;
+    font-size: 50px;
+    
+}
+span{
+    color: $color-brown;
+}
+.button{
+    margin-top: 5%;
+    
+    
+}
+.btn1{
+    padding: 10px 18px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 500;
+}
+.btn2{
+    padding: 10px 22px;
+    background-color: $color-brown;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    margin-left: 15px;
+}
