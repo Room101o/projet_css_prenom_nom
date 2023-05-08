@@ -1,0 +1,48 @@
+.box-menu{
+    background-image: url(../../../../public/images/main_bg.jpg);
+    height: auto;
+    padding: 50px;
+}
+.our-story{
+    background-color: white;
+    padding-top: 4%;
+    height: 60vh;
+    padding: 40px;
+   
+}
+.about{
+    margin-top: 4%;
+}
+.about h1{
+    font-family: "Courgette";
+    margin-bottom: 4%;
+}
+.about p{
+    font-family:"regular" ;
+}
+.title-menu{
+    font-family: "Courgette";
+}
+.box-1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+.icon i{
+    font-size: 40px;
+}
+.icon h3{
+    font-family: "Courgette";
+}
+
+.img-coffe img{
+    border-radius: 50%;
+    border: 5px solid grey;
+
+}
