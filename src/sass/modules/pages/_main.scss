@@ -1,3 +1,4 @@
+
 .box-menu{
     background-image: url(../../../../public/images/main_bg.jpg);
     height: auto;
@@ -6,8 +7,9 @@
 .our-story{
     background-color: white;
     padding-top: 4%;
-    height: 60vh;
+    height: auto;
     padding: 40px;
+    width: auto;
    
 }
 .about{
@@ -58,3 +60,151 @@
     padding-top: 4%;
     padding-bottom: 4%;
 }
+
+//responsive tablette 
+@media (min-width:426px) and (max-width:768px){
+    .img-meet img{
+        width: 140px;
+    }
+}
+//responsive mobile
+@media (min-width:320px) and (max-width:426px){
+    //our service
+    .img-1 img{
+        width: 100px;
+        display: none;
+    }
+    .img-2 img{
+        width: 100px;
+        display: none;
+    }
+    //meet our service  
+    .img-meet img{
+        width: 60px;
+    }
+    .img-meet p{
+        font-size: 10px;
+    }
+    .title-meet img{
+        width: 100%;
+    }
+}
+
+
+.allform{
+    background-image: url(../../../../public/images/book_table_bg.jpg);
+    height: auto;
+    border-radius: 20px;
+    // padding:20px 100px;
+    padding-bottom: 12%;
+    
+}
+
+form{
+    margin-bottom: 12%;
+}
+input,select{
+    outline: none;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.allform{
+    a{
+        color: white;
+        padding: 10px 18px;
+        background-color: $color-brown;
+        border-radius: 20px;
+        
+        
+    }
+}
+//responsive book your table tablette
+@media (min-width:425px) and (max-width:768px) {
+    .allform{
+        width: 100%;
+        display: block;
+    }
+    form{
+        display: block;
+    }
+
+    
+}
+//responsive book your table phone
+@media (min-width:320px) and (max-width:425px){
+    form{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+}
+@media (min-width:320px) and (max-width:424px){
+    form{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+}
+/*OUR BLOG*/
+.img-cards{
+    position: relative;
+}
+.card1 img{
+    border: 5px solid rgba(128, 128, 128, 0.505);
+    border-radius: 20px;
+}
+.abdsol{
+    position: absolute;
+    background-color: $color-brown;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    top: 90%;
+    left: 7%;
+    
+}
+.para-card{
+    margin-top: 8%;
+}
+.title-blog{
+    font-family: "Courgette";
+} 
+.btn-blog a{
+    border-radius: 20px;
+    background-color: $color-brown;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-mbl a{
+    border-radius: 20px;
+    background-color: $color-brown;
+    padding: 5px 10px;
+}
+
+//responsive our blog tablette
+@media (min-width:425px) and (max-width:768px) {
+    .box-cards{
+        position: relative;
+        left: 15%;
+    }
+
+    
+}
+@media (min-width:320px) and (max-width:426px) {
+   .img-cards img{
+    width: 250px;
+   }
+   .title-blog img{
+    width: 100%;
+   }
+   .para-card {
+    padding-top: 17%;
+   }
+    
+}
+

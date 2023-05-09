@@ -10,9 +10,19 @@
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: hue;
-    background-color: rgba(0, 0, 0, 0.667);
+    background-color: rgba(0, 0, 0, 0.793);
     background-position: center;
+    position: relative;
     
+}
+.baner{
+    background-image: url(../../../../public/images/bottom_decoration_img.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
 }
 
 nav a:hover{
@@ -60,6 +70,36 @@ span{
         width: 50px;
         
     }
+    .menu-burg{
+        position: relative;
+    }
+    .menu{
+        padding: 10px;
+    }
+
+    .main-list {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 60vw;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.742);
+        display: none;
+        z-index: 100;
+        
+      }
+      .main-list li {
+        padding: 10px;
+        display: block;
+        border-bottom: 1px solid #fff;
+        
+      }
+      .menu-burg:hover .main-list {
+        display: block;
+      }
+      .main-list li:hover {
+        padding-left: 40px;
+      }
 };
 //responsive tablet
 @media (min-width:768px) and (max-width:1024px){
