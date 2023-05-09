@@ -12533,7 +12533,7 @@ textarea.form-control-lg {
 }
 
 .header {
-  background-image: url(../../../../public/images/banner1.jpg);
+  background-image: url(../images/banner1.jpg);
   height: 94vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12545,7 +12545,7 @@ textarea.form-control-lg {
 }
 
 .baner {
-  background-image: url(../../../../public/images/bottom_decoration_img.png);
+  background-image: url(../images/bottom_decoration_img.png);
   background-position: center;
   background-repeat: repeat-x;
   height: 20px;
@@ -12631,7 +12631,7 @@ span {
   }
 }
 .box-menu {
-  background-image: url(../../../../public/images/main_bg.jpg);
+  background-image: url(../images/main_bg.jpg);
   height: auto;
   padding: 50px;
 }
@@ -12725,7 +12725,9 @@ span {
   }
 }
 .allform {
-  background-image: url(../../../../public/images/book_table_bg.jpg);
+  background-image: url(../images/book_table_bg.jpg);
+  background-color: rgba(0, 0, 0, 0.711);
+  background-blend-mode: hue;
   height: auto;
   width: auto;
   border-radius: 20px;
@@ -12769,9 +12771,6 @@ input, select {
   }
 }
 @media (min-width: 320px) and (max-width: 424px) {
-  .allform {
-    background-image: none;
-  }
   input, option {
     font-size: 10px;
   }
@@ -12853,7 +12852,7 @@ input, select {
 .client {
   background-color: rgba(0, 0, 0, 0.668);
   background-blend-mode: hue;
-  background-image: url(././../../../../public/images/testimonials_background.jpg);
+  background-image: url(../images/testimonials_background.jpg);
   padding-bottom: 4%;
 }
 
@@ -12908,7 +12907,7 @@ input, select {
   }
 }
 .our-contact {
-  background-image: url(../../../../public/images/main_bg.jpg);
+  background-image: url(../images/main_bg.jpg);
   height: auto;
   padding-bottom: 4%;
 }
@@ -13013,7 +13012,7 @@ input, select {
   }
 }
 footer {
-  background-image: url(../../../../public/images/footer_background.jpg);
+  background-image: url(../images/footer_background.jpg);
   color: white;
   padding-top: 5%;
   padding-bottom: 5%;
