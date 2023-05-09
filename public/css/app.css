@@ -12820,8 +12820,23 @@ input, select {
 
 @media (min-width: 425px) and (max-width: 768px) {
   .box-cards {
-    position: relative;
-    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-cards img {
+    width: 250px;
+  }
+  .para-card {
+    padding-top: 10px;
+    text-align: center;
   }
 }
 @media (min-width: 320px) and (max-width: 426px) {
@@ -12920,6 +12935,84 @@ input, select {
   color: white;
   padding-bottom: 5%;
   border-bottom: 2px solid white;
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+  .box-contact {
+    max-width: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 426px) {
+  .box-contact {
+    max-width: 100%;
+  }
+  .title-contact img {
+    width: 100%;
+  }
+}
+footer {
+  background-image: url(../../../../public/images/footer_background.jpg);
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
+}
+
+.about-ftr {
+  width: 30%;
+}
+.about-ftr p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.about-ftr i {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.insta-ftr {
+  width: 30%;
+}
+.insta-ftr img {
+  padding-top: 20px;
+}
+
+.tags-ftr {
+  width: 30%;
+}
+.tags-ftr a {
+  background-color: #C42D40;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.tags {
+  padding-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.baner2 {
+  background-image: url(../images/footer_bottom_decoration_img.png);
+  background-position: center;
+  background-repeat: repeat-x;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+}
+
+@media (min-width: 320px) and (max-width: 426px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

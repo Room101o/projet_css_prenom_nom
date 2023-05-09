@@ -190,12 +190,29 @@ input,select{
 //responsive our blog tablette
 @media (min-width:425px) and (max-width:768px) {
     .box-cards{
-        position: relative;
-        left: 15%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .card1{
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .img-cards img{
+        width: 250px;
+    }
+    .para-card{
+        padding-top: 10px;
+        text-align: center;
     }
 
     
 }
+//mobile our blog
 @media (min-width:320px) and (max-width:426px) {
    .img-cards img{
     width: 250px;
@@ -297,3 +314,23 @@ input,select{
     border-bottom: 2px solid white;
 
 }
+//**responsive contact tablette
+@media (min-width:426px) and (max-width:769px){
+    .box-contact{
+        max-width: 60%;
+        
+    }
+}
+
+//**responsive contact mobile
+@media (min-width:320px) and (max-width:426px){
+    .box-contact{
+        max-width: 100%;
+        
+    }
+    .title-contact img{
+        width: 100%;
+    }
+}
+
+
