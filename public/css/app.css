@@ -13068,11 +13068,38 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 426px) {
-  footer {
+  .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+  }
+  .footer .about-ftr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .about-ftr p {
+    text-align: center;
+  }
+  .footer .insta-ftr {
+    width: 100%;
+  }
+  .footer .insta-ftr .img-insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .tags-ftr, .footer .tags {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
